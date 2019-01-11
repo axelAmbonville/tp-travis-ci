@@ -19,7 +19,7 @@ class FactureTest extends TestCase
        $facture = new Facture();
        $ligne1 = new LigneFacture("Coucou", 5);
 //       $facture->addLigneFacturation($ligne1);
-       $ligne2 = new LigneFacture("Coucou", 65);
+       $ligne2 = new LigneFacture("Coucoucou", 65);
 //       $facture->addLigneFacturation($ligne2);
        $this->assertEmpty($facture->getLignesFacture());
    }
