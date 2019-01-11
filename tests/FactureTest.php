@@ -18,9 +18,9 @@ class FactureTest extends TestCase
    public function testFactureIsEmpty() {
        $facture = new Facture();
        $ligne1 = new LigneFacture("Coucou", 5);
-       $facture->addLigneFacturation($ligne1);
+//       $facture->addLigneFacturation($ligne1);
        $ligne2 = new LigneFacture("Coucou", 65);
-       $facture->addLigneFacturation($ligne2);
+//       $facture->addLigneFacturation($ligne2);
        $this->assertEmpty($facture->getLignesFacture());
    }
 
