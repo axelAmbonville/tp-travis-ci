@@ -1,7 +1,7 @@
 language: php
 php:
-  - '7.2.13'
-  - '7.1.19'
+  - 7.2.13
+  - 7.1.19
 script:
   - composer install
   - ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/FactureTest
